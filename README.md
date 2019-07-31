@@ -90,3 +90,7 @@ Learnings:
     * Add Flyway script
     * Explain Flyway script naming convention
     * Update README
+14. Run the application and test with Chrome and Postman
+    * ./gradlew bootRun
+    * GET http://localhost:8080/products
+    * Introduce Chrome plugin JSON Viewer
