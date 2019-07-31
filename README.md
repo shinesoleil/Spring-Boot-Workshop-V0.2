@@ -47,7 +47,7 @@ Learnings:
 4. should return ok when getting products - Controller
     * ProductController Unit Test
     * Explain @WebMvcTest and MockMvc
-    * Explain Difference between RestController and Controller
+    * Explain Difference between @RestController and @Controller
     * Explain ResponseEntity
     * Update README
 5. Introduce tools such as postman, insomnia
@@ -57,3 +57,9 @@ Learnings:
     * Explain jsonPath
     * Explain ResponseEntity.body()
     * Update README
+7. Add service layer in controller to return the empty list
+    * Explain @MockBean working with @WebMvcTest
+    * Explain Mockito when() and thenReturn()
+    * Explain Mockito verify() and times()
+    * Explain field injection is not recommended
+    * Explain @Service
