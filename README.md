@@ -1,9 +1,35 @@
-# Spring Boot Workshop
+# Spring Boot Workshop V0.2
 
-### Contributors
+### Contributors so far
 
-ThoughtWorks University Batch 65, Peggy Init  
-ThoughtWorks University Batch 66, Terracoders
+ThoughtWorks University Batch 65, PeggyInit   
+
+ThoughtWorks University Batch 66, TerraCoders
+
+### Running the application
+
+Configure the `application.properties` file with the local PostgreSQL database info.
+
+Make sure in the database given, there are no tables `flyway_schema_history` & `product`.
+
+`./gradlew clean build` to check if all the tests pass.
+
+`./gradlew bootRun` to run the application.
+
+Visit the following url `GET http://localhost:8080/products`
+
+### Tasking List
+
+Use the tasking list template below and follow the steps below to make your own tasking list.
+
+You could 'git check out' the commit of each step to see what to do as reference.
+
+### Tasking List Template for Practicing
+
+Task [Number]: [Task Description]   
+Estimation: [Number] minutes  
+Actual Time: [Number] minutes  
+Learnings:
 
 
 ### Spring Initializr
@@ -22,28 +48,22 @@ PostgreSQL Driver
 Flyway Migration
 
 
-### Tasking List Template for Practicing
-Task [Number]: [Task Description]   
-Estimation: [Number] minutes  
-Actual Time: [Number] minutes  
-Learnings:
-
-
 ### Steps
 1. Init project
     * ./gradlew clean build - fail
-    * Disable JPA in gradle.build
     * Explain why build failed - no configuration in application.properties for JPA
     * Comment JPA in build.gradle
+    * ./gradlew clean build - succeed
     * git init & commit
 2. Add README.md file
-    * Add readme file, introduce basic format
-    * Introduce gitignore file
+    * Add README file
+    * Explain the markdown basic syntax
+    * Explain the usage of gitignore file
     * Update README
-3. Introduce problem: 
-    * Product {id, name}
+3. Introduce the problem: 
+    * Product {String id, String name}
     * GET /products
-    * Introduce RESTful API for Product
+    * Explain RESTful API for Product (CRUD)
 4. should return ok when getting products - Controller
     * ProductController Unit Test
     * Explain @WebMvcTest and MockMvc
@@ -94,3 +114,15 @@ Learnings:
     * ./gradlew bootRun
     * GET http://localhost:8080/products
     * Introduce Chrome plugin JSON Viewer
+
+### Questions & Feedbacks
+
+For any questions and feedbacks, please come to Hao at any time.
+
+Email: hpan@thoughtworks.com
+
+### Trainer Challenge (TODO)
+
+Advanced technologies that could be used around `GET /products API` based on the existing codebase.
+
+You will need to try to figure them out by yourself.
