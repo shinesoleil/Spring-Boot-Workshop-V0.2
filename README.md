@@ -63,3 +63,7 @@ Learnings:
     * Explain Mockito verify() and times()
     * Explain field injection is not recommended
     * Explain @Service
+8. should return list with one product when getting products - Controller
+    * Explain the importance of getter in Product for serialization and deserialization
+    * Explain advanced usage of jsonPath expression
+    * Update README
