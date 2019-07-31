@@ -67,3 +67,10 @@ Learnings:
     * Explain the importance of getter in Product for serialization and deserialization
     * Explain advanced usage of jsonPath expression
     * Update README
+9. should return null when get all - Service
+    * ProductService Unit Test
+    * Explain hamcrest assertThat(), is() and nullValue()
+    * Update README
+10. Add repository layer in service to return null
+    * Explain without @WebMvcTest, we should use @Mock instead of @MockBean
+    * Update README
