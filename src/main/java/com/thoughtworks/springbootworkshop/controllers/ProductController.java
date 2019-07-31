@@ -5,12 +5,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
+
 @RestController
 @RequestMapping("/products")
 public class ProductController {
 
   @GetMapping
   public ResponseEntity getAll() {
-    return ResponseEntity.ok().build();
+    return ResponseEntity.ok().body(new ArrayList<>());
   }
 }

@@ -44,9 +44,16 @@ Learnings:
     * Product {id, name}
     * GET /products
     * Introduce RESTful API for Product
-4. should return ok when get products - Controller
+4. should return ok when getting products - Controller
     * ProductController Unit Test
     * Explain @WebMvcTest and MockMvc
     * Explain Difference between RestController and Controller
     * Explain ResponseEntity
+    * Update README
+5. Introduce tools such as postman, insomnia
+    * ./gradlew bootRun - start the application
+    * Send POST /products to get 405, GET /products to get 200
+6. should return empty list when getting products - Controller
+    * Explain jsonPath
+    * Explain ResponseEntity.body()
     * Update README
