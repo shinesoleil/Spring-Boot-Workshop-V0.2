@@ -74,3 +74,5 @@ Learnings:
 10. Add repository layer in service to return null
     * Explain without @WebMvcTest, we should use @Mock instead of @MockBean
     * Update README
+11. should return list with one product when getting all - Service
+    * Update README

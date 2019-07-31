@@ -55,6 +55,7 @@ public class ProductControllerTest {
     mockMvc.perform(get("/products").accept(MediaType.APPLICATION_JSON))
         .andExpect(status().isOk())
         .andExpect(jsonPath("$").isArray())
-        .andExpect(jsonPath("$[0].id").value("1"));
+        .andExpect(jsonPath("$[0].id").value("1"))
+        .andExpect(jsonPath("$[0].name").value("ice peak"));
   }
 }
