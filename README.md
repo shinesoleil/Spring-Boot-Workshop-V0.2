@@ -80,3 +80,13 @@ Learnings:
     * Uncomment JPA in build.gradle
     * Add configuration in application.properties file
     * ./gradlew clean build - check configuration of JPA connection to DB
+    * Update README
+13. Refactor Repository with JPA and introduce Flyway
+    * ProductRepository from class to interface
+    * Explain JpaRepository<T, ID>
+    * Explain JPA methods naming convention
+    * Explain @Entity and @Id
+    * Explain Flyway as migration tool
+    * Add Flyway script
+    * Explain Flyway script naming convention
+    * Update README
