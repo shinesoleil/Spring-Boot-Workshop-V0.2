@@ -76,3 +76,7 @@ Learnings:
     * Update README
 11. should return list with one product when getting all - Service
     * Update README
+12. Introduce JPA and connect JPA to database
+    * Uncomment JPA in build.gradle
+    * Add configuration in application.properties file
+    * ./gradlew clean build - check configuration of JPA connection to DB
