@@ -40,3 +40,13 @@ Learnings:
     * Add readme file, introduce basic format
     * Introduce gitignore file
     * Update README
+3. Introduce problem: 
+    * Product {id, name}
+    * GET /products
+    * Introduce RESTful API for Product
+4. should return ok when get products - Controller
+    * ProductController Unit Test
+    * Explain @WebMvcTest and MockMvc
+    * Explain Difference between RestController and Controller
+    * Explain ResponseEntity
+    * Update README
